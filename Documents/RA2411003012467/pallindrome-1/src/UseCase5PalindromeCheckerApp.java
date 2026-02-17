@@ -4,13 +4,10 @@ public class UseCase5PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        // Declare and initialize input
         String input = "noon";
 
-        // Create Stack
         Stack<Character> stack = new Stack<>();
 
-        // Push each character into stack
         for (char c : input.toCharArray()) {
 
             stack.push(c);
@@ -19,7 +16,6 @@ public class UseCase5PalindromeCheckerApp {
 
         boolean isPalindrome = true;
 
-        // Compare with popped characters
         for (char c : input.toCharArray()) {
 
             if (c != stack.pop()) {
@@ -31,7 +27,6 @@ public class UseCase5PalindromeCheckerApp {
 
         }
 
-        // Display result
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + isPalindrome);
 
