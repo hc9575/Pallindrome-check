@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class UseCase9PalindromeCheckerApp {
 
-    /**
-     * Application entry point for UC9.
-     *
-     * @param args Command-line arguments
-     */
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
